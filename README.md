@@ -40,7 +40,7 @@ Here's an example of how to use this module in a `main.tf` file:
 
 ```terraform
 module "org_vdc_isolated_network" {
-  source          = "github.com/global-vmware/vcd_network_isolated_v2.git?ref=v1.0.0"
+  source          = "github.com/global-vmware/vcd_network_isolated_v2.git?ref=v1.0.1"
   
   vdc_group_name      = "<US1-VDC-GRP-NAME>"
   vdc_org_name        = "<US1-VDC-ORG-NAME>"
